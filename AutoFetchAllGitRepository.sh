@@ -3,6 +3,7 @@
 #Website:http://www.OSSky.org
 
 git_dir=$(cd $(dirname $BASH_SOURCE); pwd)
+echo $(date)
 echo Current Directory: "$git_dir"
 for my_directory in $(find "$git_dir" -mindepth 1 -maxdepth 1 -type d)
 do
